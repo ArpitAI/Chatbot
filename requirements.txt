@@ -1,0 +1,8 @@
+pandas
+numpy
+scikit-learn
+nltk
+google-generativeai>=0.8.5
+chromadb
+kaggle-secrets
+ipython
