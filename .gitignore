@@ -1,0 +1,32 @@
+# Python-specific ignores
+__pycache__/
+*.pyc
+*.pyd
+dist/
+build/
+develop-eggs/
+*.egg-info/
+lib64/
+site-packages/
+venv/
+env/
+.venv/
+pyvenv.cfg
+*.DS_Store  # macOS folder attributes
+*.log       # Log files
+*.sqlite* # SQLite database files (if you are using any)
+
+# Jupyter Notebook related (if you are using Jupyter extensively)
+.ipynb_checkpoints/
+
+# Secret files (important to protect your API keys!)
+.env
+secrets.json
+your_api_key.txt # Example, adjust as needed
+
+# Data files (if they are large and not meant to be tracked)
+data/
+large_datasets/
+
+# OS-specific files (if relevant)
+Thumbs.db
